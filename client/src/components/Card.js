@@ -17,6 +17,7 @@ const CardComp = () => {
         <div className="card-content">
             <Row gutter={16}>
                 {data.length > 0 ? data.map((item,i)=>(
+
                 <Col span={8} style={{paddingBottom:"50px"}}>
                         <Card
                         style={{width: 300}}
